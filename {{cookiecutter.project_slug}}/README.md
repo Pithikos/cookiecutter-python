@@ -3,7 +3,7 @@ Install
 
 Install everything
 
-    virtualenv .env -p {{python}}
+    virtualenv .env -p {{cookiecutter.python}}
     source .env/bin/activate && pip install -r requirements.txt
 
 
